@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./utility/hourhawk.css">
+    <title>Hourhawk's Portfolio</title>
+  </head>
+  <body>
+
+      <nav class="navbar navbar-expand-lg navbar-hourhawk">
+        <a class="navbar-brand" href="#">Hourhawk's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mywork">My Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactme">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="landing">
+        <!--<div class="image-overlay"></div>-->
+        <div class="landing-content">
+          <h1 class="landing-title">Backend & Frontend</h1>
+          <p class="landing-paragraph">Hourhawk is a web developer that specializes in both backend and frontend work. Commonly, he is streaming development for the web.</p>
+          <a class="btn landing-btn" href="https://www.twitch.tv/hourhawk" target="_blank">Stream Link</a>
+        </div>
+        <a class="fas fa-arrow-down" id="scroll-down" href="#"></a>
+      </div>
+      <div class="work">
+        <h2 class="work-title">My Work</h2>
+        <ul class="work-list">
+          <li><a href="#work-all" class="work-list-active" id="work-list-all">All</a></li>
+          <li><a href="#work-frontend" id="work-list-frontend">Frontend Work</a></li>
+          <li><a href="#work-backend" id="work-list-backend">Backend Work</a></li>
+          <li><a href="#work-resources" id="work-list-resources">Resources</a></li>
+        </ul>
+        <div class="row">
+          <div class="col-12 col-md-4 remove-padding">
+            <div class="work-block" id="work-block-codesessions">
+              <div class="hide" id="work-block-codesessions-info">
+                <h3>Code Sessions</h3>
+                <p>Code Sessions is a peer-coding platform for your web browser that supports a dozen languages. The entire project was broadcasted on the platform Twitch.</p>
+                <a class="btn landing-btn" href="https://www.codesessions.net/" target="_blank">Visit</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 remove-padding">
+            <div class="work-block" id="work-block-lossrp">
+              <div class="hide" id="work-block-lossrp-info">
+                <h3>Loss RP</h3>
+                <p>Loss RP is an online roleplay community who was in dire need of a new website and applications hub. The project was completed in ~2 weeks and features a user management system, and a portal for administrators to view applications.</p>
+                <a class="btn landing-btn" href="https://www.lossrp.com/" target="_blank">Visit</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 remove-padding">
+            <div class="work-block" id="work-block-hourhawk">
+              <div class="hide" id="work-block-hourhawk-info">
+                <h3>Hourhawk's Portfolio</h3>
+                <p>This is the page you're viewing right now! Currently this is placeholder until we can feature another project. Thanks for sticking around.</p>
+                <a class="btn landing-btn" href="https://www.hourhawk.net/" target="_blank">Visit</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about">
+        <h2 class="about-title">About Me</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-8">
+              <h1 class="about-header">So, what's a web developer?</h1>
+              <p class="about-context">Hello everyone! My name is Hourhawk, and I am web developer that streams on a platform called Twitch. However, what is a web developer and <strong>how does a site differ</strong> from a custom-built one and a site that uses templates on Wordpress and other platforms? Good question! Custom-built sites usually tend to fit the demographic in which a client is persuing to increase business and sales. Tactics can be used that improve and move your site in the right direction. Developers take into account the <strong>three key features:</strong> <ul class="about-list"><li>Search Engine Optimization</li><li>Design that fits your business.</li><li>A well-rounded user experience.</li></ul>You can watch me enact these live by watching me stream <a class="about-link" href="https://www.twitch.tv/hourhawk">here</a>. Check out <a class="about-link" href="#https://www.cnbc.com/2018/09/06/companies-worry-more-about-access-to-software-developers-than-capital.html">this</a> article by CNBC about software developers.</p>
+            </div>
+            <div class="col-md-4 about-photo">
+              <img src="./img/about-photo.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact">
+        <h2 class="contact-title">Contact Me</h2>
+        <form class="container">
+          <div class="form-group">
+            <input type="text" class="form-control" id="contact-first-name" placeholder="First Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="contact-email" placeholder="Email Address">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="contact-email-body" rows="4" placeholder="Email Content, Questions, etc."></textarea>
+          </div>
+          <div class="form-group contact-right">
+            <button type="button" class="btn contact-btn">Contact Me</button>
+          </div>
+        </form>
+      </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./utility/hourhawk.js"></script>
+  </body>
+</html>

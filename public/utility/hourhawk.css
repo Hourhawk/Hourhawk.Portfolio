@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+* {
+	font-family: 'Comfortaa', cursive;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
+.navbar-hourhawk {
+	background-color: #FFFFFF;
+}
+.navbar-brand {
+	font-weight: bold;
+}
+.nav-link, .navbar-brand {
+	color: rgb(0, 0, 0);
+}
+.nav-link:hover, .nav-link:focus, .navbar-brand:hover, .navbar-brand:focus {
+	color: rgba(0, 0, 0, 0.6);
+	transition-duration: 0.2s;
+	text-decoration: none;
+}
+.collapse {
+	padding-right: 6em;
+}
+.navbar-toggler > i {
+	color: rgba(0,0,0,1);
+}
+.landing {
+	background-image: url("https://images.pexels.com/photos/584368/alps-nature-flora-sky-584368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	background-size: cover;
+	background-position: center;
+	height: calc(100vh - 56px);
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 2px rgba(71, 71, 71, 0.6);
+}
+.image-overlay {
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	background-color: rgba(255, 255, 255, 0.1);
+9
+}
+.landing-content {
+	padding-top: calc((110vh - 56px)/3);
+	position: relative;
+	z-index: 2;
+}
+.landing-paragraph {
+	color: #FFFFFF;
+	max-width: 40%;
+	margin: 0 auto;
+	text-shadow: 2px 2px 2px rgba(71, 71, 71, 1);
+	margin-bottom: 1em;
+}
+.landing-btn {
+	border-radius: 0px;
+	background-color: rgba(0,0,0,0);
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 2px rgba(71, 71, 71, 1);
+	width: 15%;
+}
+.landing-btn:hover, .landing-btn:focus {
+	background-color: #FFFFFF;
+	color: #000;
+	transition-duration: 0.2s;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0);
+}
+.work {
+	text-align: center;
+	padding-top: 15em;
+	height: 100vh;
+	background-color: #EDEDED;
+}
+.work-list {
+	list-style: none;
+	padding-bottom: 1em;
+}
+.work-list > li {
+	display: inline-block;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+.work-list > li > a {
+	color: #000000;
+}
+.work-list-active {
+	font-weight: bold;
+}
+.work-title, .about-title, .contact-title {
+	margin-bottom: 1em;
+}
+.work > .row {
+	border-top: 6px solid #dddddd;
+	border-bottom: 6px solid #dddddd;
+}
+.remove-padding {
+	padding: 0 !important;
+}
+.hide {
+	display: none;
+}
+.work-block > .hide {
+	height: 100%;
+	width: 100%;
+	color: #FFFFFF;
+	padding-top: 10vh;
+	text-shadow: 2px 2px 2px rgba(71, 71, 71, 1);
+	font-weight: bold;
+}
+.work-block > .hide > h3 {
+	font-weight: bold;
+}
+.work-block > .hide > p {
+	max-width: 80%;
+	margin: 0 auto;
+	margin-bottom: 0.5em;
+}
+#work-block-codesessions {
+	width: 100%;
+	min-height: 22em;
+	background-image: url('../img/codesessions.png');
+	background-size: cover;
+	background-position: center;
+	transition-duration: 0.2s;
+}
+#work-block-lossrp {
+	width: 100%;
+	min-height: 22em;
+	background-image: url('../img/lossrp.png');
+	background-size: cover;
+	background-position: center;
+	transition-duration: 0.2s;
+}
+#work-block-hourhawk {
+	width: 100%;
+	min-height: 22em;
+	background-image: url('../img/hourhawk.png');
+	background-size: cover;
+	background-position: center;
+	transition-duration: 0.2s;
+}
+.about {
+	margin-top: 3em;
+	height: 100vh;
+	padding-top: 15em;
+}
+.about-title {
+	text-align: center;
+}
+@import url('https://fonts.googleapis.com/css?family=Anton');
+.about-header {
+	font-family: 'Anton', sans-serif;
+	font-weight: bold;
+}
+.about-context {
+	margin-top: 1em;
+	font-size: 1.2em;
+}
+.about-link {
+	color: rgba(0,0,0,0.3) !important;
+	font-weight: bold;
+}
+.about-photo > img {
+	filter: grayscale(100%);
+}
+#scroll-down {
+	color: rgba(0,0,0,0.8);
+	border-radius: 50px;
+	padding: 1em;
+	background-color: rgba(255,255,255,0.8);
+	margin-top: calc(20vh/2);
+}
+#scroll-down:hover, #scroll-down:focus {
+	color: rgba(0,0,0,0.5);
+	text-shadow: 0px 0px 0px rgba(0,0,0,0);
+	transition-duration: 0.2s;
+	text-decoration: none;
+}
+.contact {
+	margin-top: 3em;
+	height: 100vh;
+	padding-top: 15em;
+	background-color: #EDEDED;
+}
+.contact-title {
+	text-align: center;
+}
+.contact > .container > .form-group > input, .contact > .container > .form-group > textarea {
+	border-radius: 0px;
+}
+.contact-right {
+	float: right;
+}
+.contact-btn {
+	background-color: #FFFFFF;
+	border-radius: 0px;
+	border: 1px solid #000000;
+}
+.contact-btn:hover, .contact-btn:focus {
+	background-color: #000000;
+	color: #FFFFFF;
+	border: 1px solid #000000;
+	transition-duration: 0.2s;
+}
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+box-shadow: inset 0 -1px 0 rgba(0,0,0,0.6);
+border-color: rgba(0,0,0,0.6);
+border-bottom-width: 0.25px;
+}
+@media (max-width: 800px) {
+	.work-list > li {
+		display: block;
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+	}
+	.work-list {
+		padding: 0;
+	}
+	.work, .about {
+		padding-top: 1em;
+	}
+	.work-title, .about-title, .contact-title {
+		margin-bottom: 0.25em;
+	}
+	.about {
+		padding-top: 19em;
+		text-align: center;
+	}
+	.about-list {
+		list-style: none;
+	}
+	.about-photo {
+		display: none;
+	}
+	.contact {
+		padding-top: 19em;
+	}
+}
+@media (max-width: 767.98px) {
+	.landing-paragraph {
+		max-width: 80%;
+	}
+	.landing-btn {
+		width: 80%;
+	}
+	.landing-content {
+		padding-top: calc((80vh - 56px)/3);
+	}
+}
